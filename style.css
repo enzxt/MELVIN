@@ -90,6 +90,10 @@ h2 {
     /* text-align: center; */
 }
 
+.melvin-with-ticker h2 {
+    padding-right: 5vw;
+}
+
 /* Melvin about text*/
 .aboutMelvin {
     margin-left: 5vw;
