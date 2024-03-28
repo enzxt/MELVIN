@@ -1,4 +1,3 @@
-
 /* Custom font */
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 
@@ -36,10 +35,10 @@ h1 {
 h2 {
     margin-bottom: 3vw;
     font-size: 7vw;
+    font-weight: 600;
 }
 
 /* Title --------------------------------------*/
-
 
 /* Coin Address */
 .ca {
@@ -50,7 +49,6 @@ h2 {
 /* X logo */
 .X {
     width: 4vw;
-    /* margin-bottom: .3vw; */
 }
 
 /* X logo with @ */
@@ -59,24 +57,37 @@ h2 {
     text-align: center;
 }
 
+/* All containers ------------------------------------------- */
+
+.containers {
+    display: flex;
+    flex-direction: column;
+    margin: 5vw;
+    height: 100vh;
+}
+
 /* Melvin section --------------------------------------*/
 
 /* Melvin container */
 .Melvin-container {
+    text-align: right;
     display: flex;
-    align-items: center;
-    margin: 7vw;
-    margin-right: 5vw;
-    max-height: 100vh;
+    margin-bottom: 15vh;
+    margin-right: auto;
+    margin-right: auto;
 }
 
 .Melvin-container img {
+    width: 25vw;
     max-width: 50vw;
+    margin-right: 5vw;
 }
+
 /* picture with ticker */
 .melvin-with-ticker {
     display: flex;
     flex-direction: column;
+    /* text-align: center; */
 }
 
 /* Melvin about text*/
@@ -90,27 +101,29 @@ h2 {
 .aboutDev-container {
     display: flex;
     align-items: center;
-    max-height: 100vh;
+    margin-bottom: 15vh;
+    margin-right: auto;
+    margin-right: auto;
 }
+
 /* Text */
 .aboutDev {
     max-width: 50vw;
-    margin-left: 5vw;
+    margin-left: 3vw;
     margin-right: 5vw;
 }
 
 .devPicture {
     width: 45vw;
-    margin-right: 1vw;
+    /* margin-right: 1vw; */
 }
 
-
 /* Project section -------------------------------------- */
+
 .aboutProject {
-   margin-bottom: 10vw;
-   margin-top: 10vw;
-   text-align: center;
-   max-height: 100vh;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+    text-align: center;
 }
 
 .aboutProject img {
@@ -125,39 +138,8 @@ h2 {
     justify-content: center;
 }
 
-/* nav bar style --------------------------------------*/
-.custom {
-    background-color:#526D82;
-    font-size: 3vw;
-    width: 100vw;
-}
-
-.navbar-nav .nav-link.active {
-    color: #DDE6ED;
-}
-
-.chart {
-    margin-right: 2vw;
-}
-
-.logo img{
-    width: 5vw;
-    max-width: 100vw;
-    max-height: 100vh;
-}
-
-.dropdown-menu {
-    background-color: rgb(180, 212, 238);
-}
-
-/* Adjust logo size for smaller screens */
-@media screen and (max-width: 768px) {
-    .logo img {
-        width: 10vw;
-    }
-}
-
 /* Gallery  --------------------------------------*/
+
 .galleryTitle {
     text-align: center;
     margin-top: 5vw;
@@ -198,7 +180,95 @@ h2 {
     text-align: center;
 }
 
-/* Footer --------------------------------- */
+/* nav bar style --------------------------------------*/
+.custom {
+    background-color:#526D82;
+    font-size: 3vw;
+    width: 100vw;
+}
+
+.navbar-nav .nav-link.active {
+    color: #DDE6ED;
+}
+
+.nav-link:hover {
+    color: #DDE6ED;
+}
+
+.chart {
+    margin-right: 2vw;   
+}
+
+.chart:hover {
+    color: #DDE6ED;
+}
+
+.logo img{
+    width: 5vw;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+.dropdown-menu {
+    background-color: #DDE6ED;
+}
+
+/* Adjust logo size for smaller screens -----------------------------*/
+@media screen and (max-width: 768px) {
+    .logo img {
+        width: 10vw;
+    }
+    /* Adjust font sizes for smaller screens */
+    body {
+        font-size: 5vw;
+    }
+    h1 {
+        font-size: 12vw;
+    }
+    h2 {
+        font-size: 8vw;
+    }
+    p {
+        font-size: 6vw;
+        line-height: 8vw;
+    }
+    .X,
+    .Xat {
+        font-size: 6vw;
+    }
+    .aboutProject img {
+        width: 6vw;
+    }
+    .Melvin-container {
+        margin-top: 5vh;
+        margin-bottom: 3vh;
+    }
+    .melvin-with-ticker {
+        padding-top: 7vh;
+    }
+    
+    .aboutDev-container {
+        margin-bottom: 3vh;
+    }
+    .aboutProject {
+        margin-bottom: 5vw;
+        margin-top: 5vw;
+    }
+    .galleryTitle {
+        margin-top: 10vw;
+    }
+
+    .chart {
+        font-size: 8vw;
+    }
+
+    .nav-link {
+        font-size: 8vw;
+    }
+
+}
+
+/* Footer --------------------------------------- */
 
 .footer {
     display: flex;
@@ -209,5 +279,13 @@ h2 {
 }
 
 .footer img{
-    margin-bottom: 2vw;
+    margin-bottom: 3vw;
+}
+
+.footer img {
+    width: 5vw;
+}
+
+.moreContainer {
+    margin: 3vw;
 }
