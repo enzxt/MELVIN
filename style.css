@@ -43,6 +43,11 @@ h3 {
     font-weight: 600;
 }
 
+h4 {
+    font-size: 3vw;
+    font-weight: 600;
+}
+
 /* Title --------------------------------------*/
 
 /* Coin Address */
@@ -53,13 +58,16 @@ h3 {
 
 /* X logo */
 .X {
-    width: 4vw;
+    width: 3vw;
+    margin-bottom: 3.5vh;
 }
 
 /* X logo with @ */
 .Xat {
     font-size: 4vw;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* All containers ------------------------------------------- */
@@ -233,9 +241,16 @@ h3 {
     h3 {
         font-size: larger;
     }
+    h4 {
+        font-size: 7vw;
+    }
     p {
         font-size: 6vw;
         line-height: 8vw;
+    }
+    .X {
+        margin-top: 3vh;
+        width: 5vw;
     }
     .X,
     .Xat {
