@@ -245,10 +245,7 @@ h3 {
         width: 6vw;
     }
     .Melvin-container {
-        margin-top: 5vh;
-        margin-bottom: 3vh;
-        margin-right: auto;
-        margin-left: auto;
+        margin: auto;
         text-align: left;
     }
     .Melvin-container img {
@@ -264,8 +261,7 @@ h3 {
     
     .aboutDev-container {
         margin-bottom: 3vh;
-        margin-right: auto;
-        margin-left: auto;
+        margin: auto;
     }
     .aboutProject {
         margin-bottom: 5vw;
