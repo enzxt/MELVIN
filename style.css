@@ -38,6 +38,11 @@ h2 {
     font-weight: 600;
 }
 
+h3 {
+    font-size: 3vw;
+    font-weight: 600;
+}
+
 /* Title --------------------------------------*/
 
 /* Coin Address */
@@ -293,3 +298,5 @@ h2 {
 .moreContainer {
     margin: 3vw;
 }
+
+/* Twitter @'s------------------------------------- */
