@@ -97,10 +97,6 @@ h4 {
     padding-right: 5vw;
 }
 
-.melPicture {
-    width: 100%;
-    height: 100%;
-}
 
 /* Dev section -------------------------------------- */
 
@@ -223,12 +219,12 @@ h4 {
     background-color: #DDE6ED;
 }
 
-/* Adjust logo size for smaller screens -----------------------------*/
+/* Adjustments for smaller screens -----------------------------*/
 @media screen and (max-width: 768px) {
     .logo img {
         width: 10vw;
     }
-    /* Adjust font sizes for smaller screens */
+    /* Text ---------------*/
     body {
         font-size: 5vw;
     }
@@ -248,6 +244,7 @@ h4 {
         font-size: 6vw;
         line-height: 8vw;
     }
+    /* Logo ------------------- */
     .X {
         margin-top: 3vh;
         width: 5vw;
@@ -256,6 +253,7 @@ h4 {
     .Xat {
         font-size: 6vw;
     }
+    /* about melvin ----------------- */
     .aboutProject img {
         width: 6vw;
     }
@@ -264,16 +262,16 @@ h4 {
         text-align: left;
     }
     .Melvin-container img {
-        width: 30vw;
-        height: 30vw;
-        margin-right: 10vw;
-        margin-top: 5vw;
+        width: 35vw;
+        height: 35vw;
+        margin-right: 8vw;
+        margin-top: 10vw;
     }
     .melvin-with-ticker {
         padding-top: 7vh;
         width: 40vw;
     }
-    
+    /* about team ----------------- */
     .aboutDev-container {
         margin-bottom: 3vh;
         margin: auto;
@@ -281,6 +279,9 @@ h4 {
     .aboutProject {
         margin-bottom: 5vw;
         margin-top: 5vw;
+    }
+    .aboutProject img {
+        margin-bottom: 2vh;
     }
     .galleryTitle {
         margin-top: 10vw;
